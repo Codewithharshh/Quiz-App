@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+        <title></title>     
+</head>
+
+<body>
+<button class="start-quiz-btn">Start Quiz</button>      
+<div class="container">
+   <div class="top-bar">
+       <div class="question-counter">
+        <!--<span>3<span> of </span><span>5 </span>Question</span>--> 
+       </div>         
+       <div class="timer">
+           <span><i class="fa-regular fa-clock"></i></span>
+           <span class="time-left">15</span>   
+       </div>
+       <div class="time_line"></div>
+</div>  
+ 
+<div class="ques-text">
+ <!--Insert Question Here-->    
+</div>
+ 
+<div class="option-div">
+ <!--Insert Option Here-->
+</div>
+
+<button class="next-ques-btn click-disable">Next Question</button>
+</div>
+
+<div class="result-div">
+<i class="fa-solid fa-crown"></i>   
+<span>You've completed the Quiz!</span>
+<div class="score">
+   <!--Insert Score Here-->    
+</div>
+<button class="replay-quiz-btn" onclick="location.reload()">Play again</button>
+</div>
+<script src="Questions.js"></script>
+<script src="Script.js"></script>
+</body>
+
+</html>
